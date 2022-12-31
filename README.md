@@ -29,6 +29,16 @@ B. ESP-NOW One-Way Point-to-Point Communication
 ![b 2](https://user-images.githubusercontent.com/121172074/209970925-370cadd3-f711-4311-9a14-39136b8445e5.png)
     
     
+    
+   Packet Loss
+   
+   
+   
+![packet loss](https://user-images.githubusercontent.com/121172074/210150132-c86380cb-c43a-411d-b449-22b35c97f771.JPG)
+
+   
+   
+    
     Ketinggian 1 m
     a. Jarak 1 m
      Sender
