@@ -277,4 +277,11 @@ D.One-Way, Many-to-One Communication
 
 
  E. Two-Way Communication 
+ 
+ 
+ 
+
+https://user-images.githubusercontent.com/121172074/210148804-8c5a6f59-e1b4-4a6b-8d0b-f534f2a983b8.mp4
+
+
     
