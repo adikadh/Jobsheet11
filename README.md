@@ -275,15 +275,61 @@ B. ESP-NOW One-Way Point-to-Point Communication
  
  
 C. One-Way, One-to-Many Communication 
-   a. Mengirim Pesan yang Sama Ke Beberapa Board ESP32
+   a. MAC ADRESS 
+      MAC Sender (Ayudya & Salist) : 24:6F:28:2B:6D:D8 MAC Reciver 1 (Satria & Adika) : 24:6F:28:02:C3:1C MAC Receiver 2 (Fariz & Josandy) : 24:6F:28:95:D5:80
+      
+   b. Mengirim Pesan yang Sama Ke Beberapa Board ESP32
       Pada percobaan ini terdapat satu master sebagaii sender dan beberapa receiver, serta ada beberapa percobaan seperti mematikan salah satu receiver dan menambah secara bertahap receiver ke dalam jaringan
-   b. Mengirim Pesan yang Berbeda Ke Beberapa Board ESP32
-      Membuat program agar sender bisa mengirim pesan yang berbeda kepada 3 receiver!
+      
+      1. Sender (Satria dan Tyas)
+      
+
+
+![sender1](https://user-images.githubusercontent.com/121172074/210309586-316ffb95-a809-4993-b780-8efdd4e3f021.jpeg)
+     
+     
+     
+      2. Receiver 1 (Fariz dan Josandi)
+      
+      
+      
+![receiver_1](https://user-images.githubusercontent.com/121172074/210309796-dd62c93e-ee3a-40b8-bafc-984b93724bf1.jpeg)
+
+
+
+
+      3. Receiver 2 (Ayudia dan Salist) 
+      
+      
+      
+
+![receiver_1_a](https://user-images.githubusercontent.com/121172074/210310689-9e98f0bf-3ae0-4352-9ccd-83b55e1918a1.jpeg)
 
       
       
 D.One-Way, Many-to-One Communication
     Di dalam mode ini, Receiver harus dapat mengidentifikasi setiap MAC Address unik dari Sender. Namun, untuk dapat membaca MAC Address yang berbeda cukup rumit dan butuh sedikit trik. Sehingga, untuk membuatnya lebih mudah, masing-masing Sender akan diberikan ID unik, agar Receiver dapat lebih mudah mengidentifikasi Sender.
+    
+MAC Sender 1 (Satria & Adika) : 24:6F:28:02:C3:1C MAC Sender 2 (Fariz & Josandy) : 24:6F:28:95:D5:80 MAC Receiver (Ayudya & Salist) : 24:6F:28:2B:6D:D8
+
+
+      1. Sender 1 (Salist dan Ayudia ) 
+
+
+
+![sender salis ayu](https://user-images.githubusercontent.com/121172074/210311583-c7476ed6-57a9-4ede-ad6d-ad058dc59461.jpeg)
+
+
+
+
+      2. Sender 2 (Faris dan Josandi)
+      
+      
+      
+      
+![senderfarisjosani](https://user-images.githubusercontent.com/121172074/210311322-d92e3017-682a-415a-bd76-c939977b729e.jpeg)
+
+
 
 
  E. Two-Way Communication 
